@@ -51,19 +51,13 @@ button{
     margin-bottom: 1rem;
 }
 
-table{
-    margin: auto;
-    max-width: 50%;
+#result{
+    font-size: large;
+    font-weight: bold;
+    color: var(--primary-color);
 }
 
-th,td{
-    width: 0%;
-    border-collapse: collapse;
-    padding: 1rem;
-    border: 2px solid var(--primary-color);
-}
-
-.error{
+#error{
     color: red;
 }
 
@@ -81,12 +75,12 @@ ul{
     padding-left: 0;
 }
 a,
-img,
+ img,
 li {
   display: inline;
-}
+} 
 
-img {
+footer img {
     width: 40px;
     padding: 0.2rem;
   } 
