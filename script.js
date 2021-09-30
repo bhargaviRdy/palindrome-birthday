@@ -230,7 +230,7 @@ showBtn.addEventListener("click", (e) => {
             function () {
                 gif.removeAttribute("src");
                 clickHandler(e);
-            }, 3000
+            }, 2000
         )
     }
 });
